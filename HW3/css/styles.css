@@ -232,6 +232,7 @@
     margin-bottom: 72px;
 }
 
+/* banner7 */
 .banner7 {
     max-width: 320px;
     flex-direction: column;
@@ -271,6 +272,8 @@
     background-color: #356eaf;
     cursor: pointer;
 }
+
+/* banner8 */
 .banner8 {
     flex-direction: column;
     max-width: 320px;
