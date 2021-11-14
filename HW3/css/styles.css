@@ -157,8 +157,9 @@
 
 .banner5 {
     max-width: 360px;
+     display: flex;
     flex-direction: column;
-    /* margin: 0; */
+    margin-right: 20px;
     color: #fff;
     background: rgba(28, 37, 64, 0.95);
     box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
@@ -178,7 +179,6 @@
 .banner5__desc {
     font-size: 14px;
     margin-bottom: 24px;
-
 }
 
 .banner5__btn {
@@ -196,10 +196,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .footer__desc {
-}
+margin: 0;}
 
 .banner5__btn {
     background: #EAF0F4;
@@ -207,6 +208,7 @@
     padding: 8px 20px;
     border-radius: 6px;
     border: none;
+    margin: 0;
 }
 
 .banner6 {
@@ -219,6 +221,7 @@
 }
 
 .btn6 {
+    width: 160px;
 }
 
 .btn6:first-of-type {
@@ -226,8 +229,83 @@
 }
 
 .wrap {
-    display: flex;
+    display: inline-flex;
     align-items: flex-start;
     text-align: left;
+    margin: 0;
+    margin-bottom: 72px;
+}
+
+.banner7 {
+    max-width: 320px;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 20px;
+    color: #15295A;
+    padding: 32px;
+    margin-right: 40px;
+}
+
+.banner7__title {
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.banner7__desc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.banner7__btn {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #4A7EFF;
+    border-radius: 43px;
+    color: #fff;
+    padding: 10px 32px;
+    border: none;
+}
+
+.banner8 {
+    flex-direction: column;
+    max-width: 320px;
+    padding: 16px;
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    line-height: 20px;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+}
+
+.banner8__desc {
+    margin-bottom: 20px;
+}
+
+.banner8__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.banner8__link{
+    font-size: 14px;
+    line-height: 17px;
+    color: #6666FF;
+    text-decoration: none;
+    margin: 0;
+}
+
+.banner8__btn {
+    padding: 8px;
+    background: #6666FF;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
     margin: 0;
 }
