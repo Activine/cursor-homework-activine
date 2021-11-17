@@ -154,6 +154,10 @@ body {
   border: 1.5px solid #96313b;
 }
 
+.footer {
+  background: #FAFAFA;
+}
+
 .footer__inner {
   max-width: 1110px;
   margin: 0 auto;

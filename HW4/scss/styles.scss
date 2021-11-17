@@ -62,10 +62,12 @@ body {
 			margin: 94px 0 95px 0;
 		}
 }
+
 .fab {
 	color: #FFFFFF;
 	font-size: 32px;
 }
+
 .fab:hover {
 	color: #000000;
 }
@@ -134,11 +136,10 @@ body {
 .submit:hover {
 	background: #96313b;
 	border: 1.5px solid #96313b;
-
 }
 
 .footer {
-
+	background: #FAFAFA;
 	&__inner {
 		max-width: 1110px;
 		margin: 0 auto;
@@ -150,7 +151,6 @@ body {
 	&__list {
 		width: 216px;
 	}
-
 
 	&__title {
 		font-weight: bold;
@@ -199,6 +199,7 @@ body {
 }
 
 .social {
+	
 	&__networks {
 		margin-top: 20px;
 	}
