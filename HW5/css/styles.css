@@ -10,8 +10,8 @@ body {
     background-color: #2c2c2c;
     color: #fff;
     font-size: medium;
-
 }
+
 .table__1 {
     margin-top: 30px;
 }
@@ -26,6 +26,7 @@ a {
     text-decoration: none;
     color: #fff;
 }
+
 table {
     border-radius: 10px;
     border-collapse: separate;
@@ -84,8 +85,6 @@ td:last-of-type {
     border: none;
 }
 
-
-
 .th__search {
     min-width: 140px;
     padding: 5px 5px 5px 0px;
@@ -94,8 +93,8 @@ td:last-of-type {
 }
 
 .form__search {
-text-align: right;
-vertical-align: middle;
+    text-align: right;
+    vertical-align: middle;
 }
 
 .form__btn {
@@ -106,6 +105,7 @@ vertical-align: middle;
     border-radius: 5px;
     margin-right: -4px;
 }
+
 .form__input {
     width: 100px;
     margin-left: -5px;
@@ -113,5 +113,4 @@ vertical-align: middle;
     background-color: #3a3939;
     border: none;
     border-radius: 5px;
-
 }
