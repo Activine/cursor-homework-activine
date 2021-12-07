@@ -90,3 +90,118 @@ body {
   transition: 1s;
   opacity: 0;
 }
+
+.circule-animate__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+}
+
+.circule-animate__item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00FF24;
+  position: relative;
+}
+
+.left {
+  height: 50px;
+  width: 50px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes left {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 25px;
+    top: 10px;
+  }
+  50% {
+    left: 75px;
+    top: 90px;
+  }
+  100% {
+    left: 100px;
+    top: 100px;
+  }
+}
+
+@keyframes left {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 25px;
+    top: 10px;
+  }
+  50% {
+    left: 75px;
+    top: 90px;
+  }
+  100% {
+    left: 100px;
+    top: 100px;
+  }
+}
+
+.circle__item {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 100px;
+    top: 100px;
+  }
+}
+
+@keyframes circle {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  100% {
+    left: 100px;
+    top: 100px;
+  }
+}
