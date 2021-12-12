@@ -139,6 +139,7 @@
     
     .slider {
         display: none;
+
         &__ad {
             display: block;
         }
@@ -149,6 +150,7 @@
             justify-content: space-around;
             margin-bottom: 0;
         }
+
         &__inner svg {
             margin-bottom: 10px;
         }
@@ -160,9 +162,11 @@
         flex-direction: column;
         margin-bottom: 0;
         margin-top: 0;
+
         &__img {
             display: block;
         }
+
         &__box {
             text-align: center;
         }
@@ -183,6 +187,7 @@
         display: flex;
         background: #00ADEE;
         padding: 53px 0;
+
         &__inner {
             display: flex;
             flex-direction: column;
@@ -225,7 +230,6 @@
 
 @media only screen and (max-width: 600px) {
     .experience {
-
         &__img-1 {
             width: 280px;
             position: absolute;
@@ -247,7 +251,6 @@
 
 @media only screen and (max-width: 500px) {
     .header {
-
         &__link-app {
             display: inline-block;
             margin-right: 5px;
@@ -265,7 +268,6 @@
     }
 
     .experience {
-
         &__img-1 {
             width: 200px;
             position: absolute;
@@ -286,7 +288,6 @@
 
 @media only screen and (max-width: 360px) {
     .experience {
-
         &__img-1 {
             width: 180px;
             position: absolute;
