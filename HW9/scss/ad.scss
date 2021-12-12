@@ -1,12 +1,57 @@
+@media only screen and (max-width: 850px) {
+    .experience {
+        flex-direction: column;
+        position: relative;
+
+        &__experience__cont {
+            order: 1;
+        }
+        &__box {
+            order: 2;
+        }
+
+        &__inner {
+            padding-left: 20px;
+        }
+
+        &__bg {
+            width: 100%;
+            height: 100%;
+            z-index: -5;
+            max-width: 805px;
+        }
+
+        &__img-1 {
+            position: absolute;
+            top: 11%;
+            left: 3%;
+            z-index: 2;
+        }
+    
+        &__img-2 {
+            position: absolute;
+            top: 47%;
+            left: 37%;
+            z-index: 1;
+        }
+
+        &__info {
+            margin-left: auto;
+            max-width: 426px;
+            padding: 133px 0 117px 0;
+        }
+    }
+}
+
 @media only screen and (max-width: 720px) {
     .header {
+        margin-bottom: 10px;
         &__bg {
             display: none;
         }
     
         &__inner {
             align-items: center;
-
         }
     
         &__logo {
@@ -21,7 +66,7 @@
         &__desc {
             text-align: center;
         }
-    
+
         &__link-app {
             display: inline-block;
             margin-right: 36px;
@@ -34,52 +79,223 @@
     }
 
     .experience {
-        flex-direction: column;
-        &__experience__cont {
-            order: 1;
+        &__inner {
+            text-align: center;
+        }
+        &__info {
+            padding-top: 50px;
+            padding-bottom: 50px;
         }
         &__box {
+            margin-bottom: 62px;
+        }
+    }
+    
+    .interface {
+        background-image: none;
+        &__inner {
+            text-align: center;
+            margin: 0 auto;
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        &__img-ad {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+  
+    .grid {
+        color: #fff;
+        background: none;
+        padding-bottom: 66px;
+        margin-bottom: 62px;
+        &__inner {
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+            text-align: center;
+        }
+    
+        &__title {
+            text-align: center;
+            color: #333333;
+            padding-top: 76px;
+            margin-bottom: 60px;
+        }
+    
+        &__item {
+            margin: 0 auto;
+            align-items: center;
+            max-width: 600px;
+            color: #4F4F4F;
+        }
+
+        &__icon {
+            fill:#00ADEE;
+        }
+    }
+    
+    .slider {
+        display: none;
+        &__ad {
+            display: block;
+        }
+    }
+
+    .sports {
+        &__inner {
+            justify-content: space-around;
+        }
+    }
+
+    .get-up {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        &__img {
+            display: block;
+        }
+        &__box {
+            text-align: center;
+        }
+
+        &__img-1 {
+            width: 100%;
+            height: auto;
             order: 2;
         }
 
-        &__inner {
-            padding-left: 20px;
+        &__cont {
+            margin-bottom: 20px;
         }
-        &__bg {
-            width: 100%;
-            height: 100%;
-            z-index: -5;
-            max-width: 805px;
+    }
+
+    .footer {
+        margin-top: -6px;
+        display: flex;
+        background: #00ADEE;
+        padding: 53px 0;
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            order: 1;
+        }
+    }
+
+    .contacts {
+        order: 2;
+        margin-bottom: 34px;
+        display: flex;
+
+        &__link + &__link {
+            margin-left: 17px;
+        }
+    }
+
+    .nav {
+        order: 3;
+        width: 100%;
+
+		&__list {
+            justify-content: space-between;
+		}
+
+        &__list li {
+            margin: 0;
         }
 
-        &__img-abs {
-            align-items: flex-start;
-            position: relative;
+        &__list li + li {
+            margin-left: 5px;;
         }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .experience {
+
         &__img-1 {
+            width: 280px;
             position: absolute;
-            top: 0;
-            left: 0;
-            margin-top: 0px;
-            margin-left: 0px;
+            top: 5%;
+            left: 23%;
             z-index: 2;
         }
     
         &__img-2 {
+            width: 280px;
             position: absolute;
-            bottom: 0;;
-            right: 0;
-            left: 0;
+            top: 54%;
+            left: 23%;
             z-index: 1;
-            align-items: center;
-            margin-bottom: 33px;
-            margin-right: 0px;
-            margin-left: 200px;
         }
-        &__info {
-            margin-left: auto;
-            max-width: 426px;
-            padding: 133px 0 117px 0;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .header {
+
+        &__link-app {
+            display: inline-block;
+            margin-right: 5px;
+            width: 115px;
+        }
+    
+        &__link-play {
+            display: inline-block;
+            width: 115px;
+        }
+
+        &__img {
+            width: 100px;
+        }
+    }
+
+    .experience {
+
+        &__img-1 {
+            width: 200px;
+            position: absolute;
+            top: 5%;
+            left: 23%;
+            z-index: 2;
+        }
+    
+        &__img-2 {
+            width: 200px;
+            position: absolute;
+            top: 54%;
+            left: 23%;
+            z-index: 1;
+        }
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .experience {
+
+        &__img-1 {
+            width: 180px;
+            position: absolute;
+            top: 5%;
+            left: 19%;
+            z-index: 2;
+        }
+    
+        &__img-2 {
+            width: 180px;
+            position: absolute;
+            top: 54%;
+            left: 19%;
+            z-index: 1;
         }
     }
 }

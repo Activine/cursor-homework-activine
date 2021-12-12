@@ -1,4 +1,53 @@
+@media only screen and (max-width: 850px) {
+  .experience {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
+  .experience__experience__cont {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .experience__box {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .experience__inner {
+    padding-left: 20px;
+  }
+  .experience__bg {
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    max-width: 805px;
+  }
+  .experience__img-1 {
+    position: absolute;
+    top: 11%;
+    left: 3%;
+    z-index: 2;
+  }
+  .experience__img-2 {
+    position: absolute;
+    top: 47%;
+    left: 37%;
+    z-index: 1;
+  }
+  .experience__info {
+    margin-left: auto;
+    max-width: 426px;
+    padding: 133px 0 117px 0;
+  }
+}
+
 @media only screen and (max-width: 720px) {
+  .header {
+    margin-bottom: 10px;
+  }
   .header__bg {
     display: none;
   }
@@ -25,61 +74,212 @@
   .header__link-play {
     display: inline-block;
   }
-  .experience {
+  .experience__inner {
+    text-align: center;
+  }
+  .experience__info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .experience__box {
+    margin-bottom: 62px;
+  }
+  .interface {
+    background-image: none;
+  }
+  .interface__inner {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .interface__img-ad {
+    display: block;
+    margin: 0 auto;
+  }
+  .grid {
+    color: #fff;
+    background: none;
+    padding-bottom: 66px;
+    margin-bottom: 62px;
+  }
+  .grid__inner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    row-gap: 40px;
+    text-align: center;
+  }
+  .grid__title {
+    text-align: center;
+    color: #333333;
+    padding-top: 76px;
+    margin-bottom: 60px;
+  }
+  .grid__item {
+    margin: 0 auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 600px;
+    color: #4F4F4F;
+  }
+  .grid__icon {
+    fill: #00ADEE;
+  }
+  .slider {
+    display: none;
+  }
+  .slider__ad {
+    display: block;
+  }
+  .sports__inner {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .get-up {
+    background-image: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 0;
   }
-  .experience__experience__cont {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+  .get-up__img {
+    display: block;
   }
-  .experience__box {
+  .get-up__box {
+    text-align: center;
+  }
+  .get-up__img-1 {
+    width: 100%;
+    height: auto;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
   }
-  .experience__inner {
-    padding-left: 20px;
+  .get-up__cont {
+    margin-bottom: 20px;
   }
-  .experience__bg {
+  .footer {
+    margin-top: -6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #00ADEE;
+    padding: 53px 0;
+  }
+  .footer__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .contacts {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 34px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .contacts__link + .contacts__link {
+    margin-left: 17px;
+  }
+  .nav {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
     width: 100%;
-    height: 100%;
-    z-index: -5;
-    max-width: 805px;
   }
-  .experience__img-abs {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: relative;
+  .nav__list {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
+  .nav__list li {
+    margin: 0;
+  }
+  .nav__list li + li {
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .experience__img-1 {
+    width: 280px;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 0px;
-    margin-left: 0px;
+    top: 5%;
+    left: 23%;
     z-index: 2;
   }
   .experience__img-2 {
+    width: 280px;
     position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    top: 54%;
+    left: 23%;
     z-index: 1;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-bottom: 33px;
-    margin-right: 0px;
-    margin-left: 200px;
   }
-  .experience__info {
-    margin-left: auto;
-    max-width: 426px;
-    padding: 133px 0 117px 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .header__link-app {
+    display: inline-block;
+    margin-right: 5px;
+    width: 115px;
+  }
+  .header__link-play {
+    display: inline-block;
+    width: 115px;
+  }
+  .header__img {
+    width: 100px;
+  }
+  .experience__img-1 {
+    width: 200px;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    z-index: 2;
+  }
+  .experience__img-2 {
+    width: 200px;
+    position: absolute;
+    top: 54%;
+    left: 23%;
+    z-index: 1;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .experience__img-1 {
+    width: 180px;
+    position: absolute;
+    top: 5%;
+    left: 19%;
+    z-index: 2;
+  }
+  .experience__img-2 {
+    width: 180px;
+    position: absolute;
+    top: 54%;
+    left: 19%;
+    z-index: 1;
   }
 }
