@@ -1,0 +1,124 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100vh;
+}
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__title {
+  max-width: 540px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 66px;
+  letter-spacing: 1px;
+  color: #091133;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
+.header__content {
+  max-width: 540px;
+  vertical-align: middle;
+  margin-bottom: 5%;
+}
+
+.header__desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #505F98;
+}
+
+.header__link-lm, .header__link-ui {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 5px 30px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.header__link-ui {
+  color: #FFFFFF;
+  background: #111B47;
+  border-radius: 2px;
+  margin-right: 30px;
+}
+
+.header__link-lm {
+  border: 2px solid #091133;
+  border-radius: 2px;
+  color: #091133;
+}
+
+.container {
+  max-width: 1130px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__item + .nav__item {
+  margin-left: 20px;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505F98;
+  text-decoration: none;
+}
+
+.nav__btn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  width: 160px;
+  padding: 4px 0;
+  background: #111B47;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav__btn:hover {
+  background-color: #9FA7C7;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447E;
+  text-decoration: none;
+}
