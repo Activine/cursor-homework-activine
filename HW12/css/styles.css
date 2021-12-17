@@ -73,7 +73,7 @@ body {
 
 .header__link-ui:hover, .header__link-lm:hover {
   background-color: #9FA7C7;
-  border: none;
+  border-color: #9FA7C7;
   color: #fff;
 }
 
@@ -266,6 +266,12 @@ body {
   text-decoration: none;
   margin-top: 40px;
   width: 150px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.section__link:hover {
+  background-color: #9FA7C7;
 }
 
 .price {
@@ -338,6 +344,12 @@ body {
   text-decoration: none;
   padding: 4px 0;
   margin: 0 auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.price__link:hover {
+  background-color: #9FA7C7;
 }
 
 .footer {
@@ -405,6 +417,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .social__link + .social__link {
@@ -412,12 +427,17 @@ body {
 }
 
 .social__link {
+  display: inline-block;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .social__link:hover {
   font-size: 20px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 hr {
