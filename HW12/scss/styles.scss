@@ -95,9 +95,6 @@ body {
         display: flex;
     }
 
-    &__item {
-    }
-    
     &__item + &__item {
         margin-left: 20px;
     }
@@ -379,9 +376,6 @@ body {
     &__link {
         display: inline-block;
         transition: 0.5s;
-    }
-
-    &__img {
     }
 
     &__link:hover {
