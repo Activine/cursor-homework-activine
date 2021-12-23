@@ -12,9 +12,6 @@ body {
     background-position: right;
     height: 100vh;
 
-    &__inner {
-    }
-
     &__top {
         display: flex;
         justify-content: space-between;
@@ -43,9 +40,6 @@ body {
         font-size: 18px;
         line-height: 30px;
         color: #505F98;
-    }
-
-    &__links {
     }
 
     &__link-lm,
