@@ -533,21 +533,21 @@ button {
     font-size: 18px;
 }
 
-.screen-l {
+.last-screen {
     clear: both;
     text-align: center;
 }
 
-.screen-l .wrapper {
+.last-screen .wrapper {
     height: auto;
     min-height: 1px !important;
 }
 
-.screen-l .h2 {
+.last-screen .h2 {
     margin-bottom: 60px;
 }
 
-.screen-l .left-block, .screen-l .right-block {
+.last-screen .left-block, .last-screen .right-block {
     width: auto;
     max-width: 500px;
     float: none;
@@ -556,18 +556,18 @@ button {
     vertical-align: top;
 }
 
-.screen-l .plus {
+.last-screen .plus {
     right: 70px;
     text-align: right;
 }
 
-.screen-l .price {
+.last-screen .price {
     position: absolute;
     bottom: -30px;
     right: 80px;
 }
 
-.screen-l form {
+.last-screen form {
     margin-top: 50px;
 }
 
@@ -632,4 +632,43 @@ footer {
     width: 39px; 
     height: 57px;
     background: url('../img/css_sprites.png') -10px -158px;
+}
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #e0e0e0;
+    z-index: 1001;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
 }
