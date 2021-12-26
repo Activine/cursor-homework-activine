@@ -8,7 +8,7 @@
         }
 
         &__img {
-            width: 100%;
+            max-width: 600px;
         }
 
         &__title {
@@ -83,6 +83,14 @@
             flex-direction: column;
             padding-top: 20px;
             padding-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        &__img {
+            width: 80%;
         }
     }
 }
