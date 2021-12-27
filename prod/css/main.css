@@ -795,15 +795,15 @@ footer {
 }
 
 .video__link-img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-position: center;
 }
 
 .popup__link {
     position: absolute;
-    top: 46%;
-    right: 46%;
+    top: 40%;
+    right: 40%;
     width: 100px;
     height: 100px;
 }
