@@ -767,4 +767,32 @@ footer {
     border: none;
     opacity: 1;
   }
-  
+
+.video__popup {
+    position: relative;
+    background: url("../img/sddefault.webp") no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 473px;
+    width: 840px;
+    margin: 0 auto;
+    border: 5px solid #ffdc00;
+}
+
+.video__link-img {
+    width: 100px;
+    height: 100px;
+    background-position: center;
+}
+
+.popup__link {
+    position: absolute;
+    top: 46%;
+    right: 46%;
+    width: 100px;
+    height: 100px;
+}
+
+.popup__link:hover svg path {
+    fill: red;
+}
